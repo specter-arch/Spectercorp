@@ -189,7 +189,7 @@ document.getElementById("loader").classList.add("hidden");
 const auth=firebase.auth();
 const db=firebase.firestore();
 
-const BACKEND="https://YOUR_BACKEND_URL";
+const BACKEND="https://https://spectercorp-backend.onrender.com";
 
 // AUTH
 function signup(){
@@ -348,4 +348,5 @@ window.location.href=data.url;
 
 </body>
 </html>
+
 
